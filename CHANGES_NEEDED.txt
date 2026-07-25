@@ -1,0 +1,35 @@
+CHANGES TO MAKE:
+
+1. LoanProductPage.jsx
+   - Add useEffect for scroll to top
+   - Fix loan amount max to 500000
+   - Remove $ sign from display
+   - Fix interest rate calculations
+   - Update all colors to new schema
+
+2. KYC.jsx
+   - Remove alert() on send OTP
+   - Use toast/modal instead
+
+3. Pennydrop.jsx
+   - Add account number validation (format check)
+
+4. PersonalDetails.jsx
+   - Add better validation across all fields
+
+5. All pages
+   - Replace old colors with new schema
+   - Add scroll to top on navigation
+   - Fix mobile responsiveness
+
+NEW COLOR SCHEMA:
+Primary: #0F172A
+CTA: #10B981
+CTA Hover: #059669
+Background: #F8FAFC
+Card: #FFFFFF
+Headings: #111827
+Body: #475569
+Borders: #E2E8F0
+Error: #EF4444
+Success: #16A34A
